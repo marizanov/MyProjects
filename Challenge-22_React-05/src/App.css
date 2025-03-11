@@ -1,0 +1,108 @@
+.hero-banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.login-button {
+    margin-top: 30px;
+    width: 100%;
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid  rgb(63, 101, 224);
+    color: rgb(63, 101, 224);
+    padding: 10px;
+    border-radius: 2px;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: rgb(63, 101, 224);
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;  
+    background-color: #007bff;  
+    padding: 20px 30px;  
+  }
+  
+  .navbar a, .navbar button {
+    color: white;  
+    font-size: 20px;
+    text-decoration: none;  
+    background: none;  
+    border: none;  
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 10px;
+    border-radius: 50%;
+  }
+  
+  .navbar a:hover, .navbar button:hover {
+    background-color: #015bbb; 
+  }
+  
+  .navbar .logout-button {
+    margin-right: 20px;  
+  }
+
+  .workout-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 300px;
+  }
+
+
+  .form-control {
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .add-button {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-control select,
+  .form-control input {  
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+
+  .workout-card {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .workout-card h3,
+  .workout-card p {
+    margin: 0;
+  }
+
+  .workout-list {
+    border-bottom: 2px solid #727171;
+  }
