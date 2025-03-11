@@ -1,0 +1,12 @@
+.popular-restaurants-cards, .allCardsContainer, .allCards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+  border-bottom: 1px solid rgb(199, 198, 198);
+}
+.popular-restaurants h2 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}

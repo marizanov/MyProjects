@@ -1,0 +1,23 @@
+.surpriseRestaurant {
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(199, 198, 198);
+}
+
+.surpriseRestaurant h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.surpriseRestaurant button {
+    background-color: green;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
